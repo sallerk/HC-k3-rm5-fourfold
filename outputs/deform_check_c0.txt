@@ -1,0 +1,32 @@
+deform_check.py family=c0 narcs=6 seed=20261011  (exact over Q; mod p=1000003 ranks only as cross-check)
+family built in 0.15s; parameters: ['nu1', 'nu2', 'nu3', 'nu4', 'nu5', 'nu6', 'b0', 'b1', 'b2', 'b3', 'eps']
+4F == 4x0^6+40x0^3x1^2x2-20x0^3x2^3+4x0x1^5-20x0x1^4x2+4x1^6-20x1^3x2^3+4x1x2^5+5x2^6 ? True
+F = (1)*x0^6 + (1)*x0*x1^5 + (1)*x1^6 + (10)*x0^3*x1^2*x2 + (-5)*x0*x1^4*x2 + (-5)*x0^3*x2^3 + (-5)*x1^3*x2^3 + (1)*x1*x2^5 + (5/4)*x2^6
+(a) dim R_d, d=0..13: [1, 3, 6, 10, 15, 18, 19, 18, 15, 10, 6, 3, 1, 0]   [0.01s]
+    equals complete-intersection (5,5,5) Hilbert function: True; R_13 = 0: True
+    standard monomials of R_7 (grevlex): [(4, 1, 2), (2, 3, 2), (0, 5, 2), (4, 0, 3), (3, 1, 3), (2, 2, 3), (1, 3, 3), (0, 4, 3), (3, 0, 4), (2, 1, 4), (1, 2, 4), (0, 3, 4), (2, 0, 5), (1, 1, 5), (0, 2, 5), (1, 0, 6), (0, 1, 6), (0, 0, 7)]
+(d)(i) GL3 arc M=[[1, -5, -5], [-5, -5, 3], [3, 5, -4]]: c2(P)=0 for P in x0,x1,x2,[-2, 3, -8]: [True, True, True, True]; (with Fddot doubled, zero? [False, False, False, False] -- expected False)
+(d)(i) GL3 arc M=[[-3, -2, 3], [3, -2, -4], [4, 3, 5]]: c2(P)=0 for P in x0,x1,x2,[1, 4, -6]: [True, True, True, True]; (with Fddot doubled, zero? [False, False, False, False] -- expected False)
+arc d = [11, 2, 11, 1, -3, -17, -18, 2, 10, -18, -20]: c2 nonzero? [True, True, True]
+arc d = [2, -7, 18, 13, -12, 10, -19, -20, -6, -5, -11]: c2 nonzero? [True, True, True]
+arc d = [-8, 3, 9, 19, -2, -19, -12, -4, 6, 2, -8]: c2 nonzero? [True, True, True]
+arc d = [-1, -6, 2, 12, -14, -10, 8, -16, 10, 1, 1]: c2 nonzero? [True, True, True]
+arc d = [3, -2, 0, 9, -6, -6, -17, -13, 14, -6, -19]: c2 nonzero? [True, True, True]
+arc d = [19, 12, -5, 5, -9, 2, -1, -2, -4, 15, 0]: c2 nonzero? [True, True, True]
+arcs computed in 0.04s
+Koszul check (arc 1, lift changed by random Koszul syzygies): c2(P_j) unchanged: [True, True, True]
+rank of {[P_j T_k]} in R_7: 17 (of 18)
+(b) FIRST ORDER: unknowns 333 (C: 9, Phi: 18x18), equations 594
+[first order] arcs=0: rows=594 cols=333 rank_Q=311 rank_mod_p=311 | dim solutions=22 | dim(D-only kernel)=0 | dim proj to (C,Phi)=22 | dim proj to C=4 | 0.25s
+    first-order C-space (rref basis, C as row-major 3x3 [C_00,C_01,C_02,C_10,...]; dim 4):
+      [1, 0, 0, 0, 1, 0, 0, 0, 0]
+      [0, 0, 1, 0, 0, 0, 0, 0, 0]
+      [0, 0, 0, 0, 0, 1, 0, 0, 0]
+      [0, 0, 0, 0, 0, 0, 0, 0, 1]
+(d)(iii) (C,Phi,D) = (I, I, 0) solves first + all second-order equations: True
+(c) SECOND ORDER (first-order equations + second-order equations of the first n arcs):
+[second order] arcs=1: rows=648 cols=342 rank_Q=338 rank_mod_p=338 | dim solutions=4 | dim(D-only kernel)=0 | dim proj to (C,Phi)=4 | dim proj to C=1 | 0.28s
+[second order] arcs=2: rows=702 cols=351 rank_Q=350 rank_mod_p=350 | dim solutions=1 | dim(D-only kernel)=0 | dim proj to (C,Phi)=1 | dim proj to C=1 | 0.26s
+[second order] arcs=4: rows=810 cols=369 rank_Q=368 rank_mod_p=368 | dim solutions=1 | dim(D-only kernel)=0 | dim proj to (C,Phi)=1 | dim proj to C=1 | 0.33s
+[second order] arcs=6: rows=918 cols=387 rank_Q=386 rank_mod_p=386 | dim solutions=1 | dim(D-only kernel)=0 | dim proj to (C,Phi)=1 | dim proj to C=1 | 0.38s
+total time 1.89s

@@ -1,0 +1,5 @@
+[ex] chain 1-7: first-order bound 22 (b10: 22) | second-order bound 1 (4 arcs; full solution space 1)
+   control: 8 random sextic directions at the same F, first order 1 (b10: 1)
+[rnd] chain 1-7: first-order bound 22 (b10: 22) | second-order bound 1 (4 arcs; full solution space 1)
+[vgs] chain 1-7: first-order bound 76 (b10: 76) | second-order bound 20 (expect >= 2)
+[even] chain 1-7: first-order bound 2 | second-order bound 2 (full 2; expect >= 2: id, g)

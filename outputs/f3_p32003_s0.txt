@@ -1,0 +1,5 @@
+[ex] P_5 = 1 | second-order persistent dim = 0 | control GL3 arcs: 18 of 18 pass
+   pairings <v, c2(P, arc)> (first rows): [24110, 24396, 29198, 6748, 25553, 27871, 9126, 30925, 9977]
+[rnd] P_5 = 1 | second-order persistent dim = 0 | control GL3 arcs: 18 of 18 pass
+   pairings <v, c2(P, arc)> (first rows): [22565, 15035, 7998, 11093, 29195, 2381, 13170, 22433, 11976]
+[vgs] P_5 = 4 | second-order persistent dim = 1 (expect >= 1: hexaflex lines)

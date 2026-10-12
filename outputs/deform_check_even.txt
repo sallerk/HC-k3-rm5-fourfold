@@ -1,0 +1,31 @@
+deform_check.py family=even narcs=6 seed=20261011  (exact over Q; mod p=1000003 ranks only as cross-check)
+family built in 0.00s; parameters: ['x0^6 x1^0 x2^0', 'x0^5 x1^1 x2^0', 'x0^4 x1^2 x2^0', 'x0^3 x1^3 x2^0', 'x0^2 x1^4 x2^0', 'x0^1 x1^5 x2^0', 'x0^0 x1^6 x2^0', 'x0^4 x1^0 x2^2', 'x0^3 x1^1 x2^2', 'x0^2 x1^2 x2^2', 'x0^1 x1^3 x2^2', 'x0^0 x1^4 x2^2', 'x0^2 x1^0 x2^4', 'x0^1 x1^1 x2^4', 'x0^0 x1^2 x2^4', 'x0^0 x1^0 x2^6']
+random even member (coefficients on the 16 even monomials, 1 tries): [-2, 0, -4, 2, 3, 3, -4, -2, -5, 4, -1, -1, 4, -3, 3, 3]
+F = (-2)*x0^6 + (-4)*x0^4*x1^2 + (2)*x0^3*x1^3 + (3)*x0^2*x1^4 + (3)*x0*x1^5 + (-4)*x1^6 + (-2)*x0^4*x2^2 + (-5)*x0^3*x1*x2^2 + (4)*x0^2*x1^2*x2^2 + (-1)*x0*x1^3*x2^2 + (-1)*x1^4*x2^2 + (4)*x0^2*x2^4 + (-3)*x0*x1*x2^4 + (3)*x1^2*x2^4 + (3)*x2^6
+(a) dim R_d, d=0..13: [1, 3, 6, 10, 15, 18, 19, 18, 15, 10, 6, 3, 1, 0]   [0.01s]
+    equals complete-intersection (5,5,5) Hilbert function: True; R_13 = 0: True
+    standard monomials of R_7 (grevlex): [(1, 6, 0), (0, 7, 0), (1, 4, 2), (0, 5, 2), (3, 1, 3), (2, 2, 3), (1, 3, 3), (0, 4, 3), (3, 0, 4), (2, 1, 4), (1, 2, 4), (0, 3, 4), (2, 0, 5), (1, 1, 5), (0, 2, 5), (1, 0, 6), (0, 1, 6), (0, 0, 7)]
+(d)(i) GL3 arc M=[[1, -5, -5], [-5, -5, 3], [3, 5, -4]]: c2(P)=0 for P in x0,x1,x2,[-2, 3, -8]: [True, True, True, True]; (with Fddot doubled, zero? [False, False, False, False] -- expected False)
+(d)(i) GL3 arc M=[[-3, -2, 3], [3, -2, -4], [4, 3, 5]]: c2(P)=0 for P in x0,x1,x2,[1, 4, -6]: [True, True, True, True]; (with Fddot doubled, zero? [False, False, False, False] -- expected False)
+arc d = [11, 2, 11, 1, -3, -17, -18, 2, 10, -18, -20, 2, -7, 18, 13, -12]: c2 nonzero? [True, True, True]
+arc d = [10, -19, -20, -6, -5, -11, -8, 3, 9, 19, -2, -19, -12, -4, 6, 2]: c2 nonzero? [True, True, True]
+arc d = [-8, -1, -6, 2, 12, -14, -10, 8, -16, 10, 1, 1, 3, -2, 0, 9]: c2 nonzero? [True, True, True]
+arc d = [-6, -6, -17, -13, 14, -6, -19, 19, 12, -5, 5, -9, 2, -1, -2, -4]: c2 nonzero? [True, True, True]
+arc d = [15, 0, -7, 5, 3, 6, 17, -4, -14, -16, 19, 2, 10, -16, -7, 19]: c2 nonzero? [True, True, True]
+arc d = [0, 13, 12, 20, 15, -3, -9, 18, 9, -14, 18, 6, 19, 1, 19, -8]: c2 nonzero? [True, True, True]
+arcs computed in 0.03s
+Koszul check (arc 1, lift changed by random Koszul syzygies): c2(P_j) unchanged: [True, True, True]
+rank of {[P_j T_k]} in R_7: 18 (of 18)
+(b) FIRST ORDER: unknowns 333 (C: 9, Phi: 18x18), equations 864
+[first order] arcs=0: rows=864 cols=333 rank_Q=331 rank_mod_p=331 | dim solutions=2 | dim(D-only kernel)=0 | dim proj to (C,Phi)=2 | dim proj to C=2 | 0.27s
+    first-order C-space (rref basis, C as row-major 3x3 [C_00,C_01,C_02,C_10,...]; dim 2):
+      [1, 0, 0, 0, 1, 0, 0, 0, 0]
+      [0, 0, 0, 0, 0, 0, 0, 0, 1]
+(d)(iii) (C,Phi,D) = (I, I, 0) solves first + all second-order equations: True
+(d)(ii) sigma: x2 -> -x2, (C,Phi,D) = (diag(1,1,-1), diag((-1)^e2 on std monomials), 0) solves everything: True
+(c) SECOND ORDER (first-order equations + second-order equations of the first n arcs):
+[second order] arcs=1: rows=918 cols=342 rank_Q=340 rank_mod_p=340 | dim solutions=2 | dim(D-only kernel)=0 | dim proj to (C,Phi)=2 | dim proj to C=2 | 0.32s
+[second order] arcs=2: rows=972 cols=351 rank_Q=349 rank_mod_p=349 | dim solutions=2 | dim(D-only kernel)=0 | dim proj to (C,Phi)=2 | dim proj to C=2 | 0.36s
+[second order] arcs=4: rows=1080 cols=369 rank_Q=367 rank_mod_p=367 | dim solutions=2 | dim(D-only kernel)=0 | dim proj to (C,Phi)=2 | dim proj to C=2 | 0.41s
+[second order] arcs=6: rows=1188 cols=387 rank_Q=385 rank_mod_p=385 | dim solutions=2 | dim(D-only kernel)=0 | dim proj to (C,Phi)=2 | dim proj to C=2 | 0.47s
+total time 2.03s

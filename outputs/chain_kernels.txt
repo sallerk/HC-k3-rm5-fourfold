@@ -1,0 +1,30 @@
+chain_kernels.py seed=20261011 (exact over Q; mod p=1000003 rank only as cross-check)
+c0: 4F check True; dim R_d d=0..13: [1, 3, 6, 10, 15, 18, 19, 18, 15, 10, 6, 3, 1, 0]
+control (i), no tangents:
+[c0, no tangents] chi=0: components (a,b)=[(9, 3), (3, 9)] dim L=200 | targets [(9, 9)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=200 | 0.00s
+[c0, no tangents] chi=1: components (a,b)=[(8, 4), (2, 10)] dim L=261 | targets [(8, 10)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=261 | 0.00s
+[c0, no tangents] chi=2: components (a,b)=[(7, 5), (1, 11)] dim L=333 | targets [(7, 11)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=333 | 0.00s
+[c0, no tangents] chi=3: components (a,b)=[(12, 0), (6, 6), (0, 12)] dim L=363 | targets [(6, 12), (12, 6)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=363 | 0.00s
+[c0, no tangents] chi=4: components (a,b)=[(11, 1), (5, 7)] dim L=333 | targets [(11, 7)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=333 | 0.00s
+[c0, no tangents] chi=5: components (a,b)=[(10, 2), (4, 8)] dim L=261 | targets [(10, 8)] rows=0 rank_Q=0 rank_mod_p=0 | dim K=261 | 0.00s
+[c0, no tangents] dim K_chi, chi=0..5: [200, 261, 333, 363, 333, 261]   (symmetry K_chi = K_-chi: True)
+c0 with the 11 tangents (nu1..nu6, b0..b3, eps):
+[c0, 11 tangents] rank of the tangent classes [T_k] in R_6: 8 (of 19)
+[c0, 11 tangents] chi=0: components (a,b)=[(9, 3), (3, 9)] dim L=200 | targets [(9, 9)] rows=1100 rank_Q=199 rank_mod_p=199 | dim K=1 | 0.20s
+[c0, 11 tangents] chi=1: components (a,b)=[(8, 4), (2, 10)] dim L=261 | targets [(8, 10)] rows=990 rank_Q=260 rank_mod_p=260 | dim K=1 | 0.23s
+[c0, 11 tangents] chi=2: components (a,b)=[(7, 5), (1, 11)] dim L=333 | targets [(7, 11)] rows=594 rank_Q=311 rank_mod_p=311 | dim K=22 | 0.21s
+[c0, 11 tangents] chi=3: components (a,b)=[(12, 0), (6, 6), (0, 12)] dim L=363 | targets [(6, 12), (12, 6)] rows=418 rank_Q=241 rank_mod_p=241 | dim K=122 | 0.24s
+[c0, 11 tangents] chi=4: components (a,b)=[(11, 1), (5, 7)] dim L=333 | targets [(11, 7)] rows=594 rank_Q=311 rank_mod_p=311 | dim K=22 | 0.23s
+[c0, 11 tangents] chi=5: components (a,b)=[(10, 2), (4, 8)] dim L=261 | targets [(10, 8)] rows=990 rank_Q=260 rank_mod_p=260 | dim K=1 | 0.23s
+[c0, 11 tangents] dim K_chi, chi=0..5: [1, 1, 22, 122, 22, 1]   (symmetry K_chi = K_-chi: True)
+control (ii): random sextic (1 tries), coefficients on grevlex monomials of S_6: [2, 0, 2, 0, -1, -5, -5, 0, 2, -5, -5, 5, 0, -2, 5, 4, 3, -3, 2, -5, -5, -2, -2, -3, -2, 0, 2, 4]
+  dim R_d d=0..13: [1, 3, 6, 10, 15, 18, 19, 18, 15, 10, 6, 3, 1, 0]
+[random sextic, 28 monomials] rank of the tangent classes [T_k] in R_6: 19 (of 19)
+[random sextic, 28 monomials] chi=0: components (a,b)=[(9, 3), (3, 9)] dim L=200 | targets [(9, 9)] rows=2800 rank_Q=199 rank_mod_p=199 | dim K=1 | 0.52s
+[random sextic, 28 monomials] chi=1: components (a,b)=[(8, 4), (2, 10)] dim L=261 | targets [(8, 10)] rows=2520 rank_Q=260 rank_mod_p=260 | dim K=1 | 0.60s
+[random sextic, 28 monomials] chi=2: components (a,b)=[(7, 5), (1, 11)] dim L=333 | targets [(7, 11)] rows=1512 rank_Q=332 rank_mod_p=332 | dim K=1 | 0.46s
+[random sextic, 28 monomials] chi=3: components (a,b)=[(12, 0), (6, 6), (0, 12)] dim L=363 | targets [(6, 12), (12, 6)] rows=1064 rank_Q=362 rank_mod_p=362 | dim K=1 | 0.37s
+[random sextic, 28 monomials] chi=4: components (a,b)=[(11, 1), (5, 7)] dim L=333 | targets [(11, 7)] rows=1512 rank_Q=332 rank_mod_p=332 | dim K=1 | 0.48s
+[random sextic, 28 monomials] chi=5: components (a,b)=[(10, 2), (4, 8)] dim L=261 | targets [(10, 8)] rows=2520 rank_Q=260 rank_mod_p=260 | dim K=1 | 0.58s
+[random sextic, 28 monomials] dim K_chi, chi=0..5: [1, 1, 1, 1, 1, 1]   (symmetry K_chi = K_-chi: True)
+total time 4.58s

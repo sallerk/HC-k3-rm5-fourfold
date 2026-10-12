@@ -1,0 +1,2 @@
+p = 32003, c0, printed arcs d1..d1: first-order bound 22 | second-order bound 4 | full solution space 4
+p = 32003, c0, printed arcs d1..d2: first-order bound 22 | second-order bound 1 | full solution space 1

@@ -1,0 +1,2 @@
+first-order solutions: 22; with C = 0: 18; rank of projection to C: 4
+dim span{r (x) v^dual} = 18; dim (that + C=0 solutions) = 18
