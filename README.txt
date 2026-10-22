@@ -3,7 +3,7 @@ Supporting code and data for the note
 multiplication"
 ==========================================================================================================
 
-Status: accompanies the note (Kevin Saller, 2026); not peer reviewed.
+Status: accompanies the note (K. Saller, 2026); not peer reviewed.
 
 The note is the sequel to "An explicit eight-dimensional family of K3 surfaces with real multiplication by
 Q(sqrt5)" (the "K3 note", DOI 10.5281/zenodo.23309349), whose family it uses: F = F_c, c = (nu, b, eps) with

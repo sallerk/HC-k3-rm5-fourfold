@@ -1,7 +1,7 @@
 # HC-k3-rm5-fourfold
 
 Code and data supporting the note *The Hodge conjecture for the sextic fourfolds of an eight-dimensional family of K3
-surfaces with real multiplication* (Kevin Saller, 2026). It is the sequel to the note *An explicit eight-dimensional
+surfaces with real multiplication* (K. Saller, 2026). It is the sequel to the note *An explicit eight-dimensional
 family of K3 surfaces with real multiplication by Q(√5)* (the "K3 note", DOI
 [10.5281/zenodo.23309349](https://doi.org/10.5281/zenodo.23309349); code in the repository
 [HC-k3-rm5-maximal](https://github.com/sallerk/HC-k3-rm5-maximal)).
